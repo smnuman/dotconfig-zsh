@@ -1,3 +1,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = ./zsh
+[submodule "brew"]
+	path = brew
+	url = ./brew
