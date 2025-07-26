@@ -1,0 +1,14 @@
+# -- force not to ignore --
+! */.gitkeep
+
+# -- folders to ignore/exclude --
+logs/
+raycast/
+gh/
+htop/
+bat/
+
+# -- ignore the following --
+plugins/
+*.log
+*.timestamp

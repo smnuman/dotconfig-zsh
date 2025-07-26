@@ -1,0 +1,91 @@
+{
+    "geminicodeassist.updateChannel": "Insiders",
+    "augment.advanced": {
+        "mcp": {
+            "servers": {
+                "Context7": {
+                    "args": [
+                        "-y",
+                        "@upstash/context7-mcp"
+                    ],
+                    "command": "npx",
+                    "type": "stdio"
+                },
+                "chess": {
+                    "args": [
+                        "--directory",
+                        "http://chess.com/games",
+                        "run",
+                        "src/chess_mcp/main.py"
+                    ],
+                    "command": "uv"
+                },
+                "fetch": {
+                    "args": [
+                        "mcp-server-fetch"
+                    ],
+                    "command": "uvx"
+                }
+            }
+        }
+    },
+    "augment.chat.userGuidelines": "# Coding Guidelines\n\n## Style\n- Use 4-space indentation for all code\n- Limit line length to 100 characters\n- Use camelCase for variables and functions, PascalCase for classes\n- Group related functions together\n\n## Best Practices\n- Write unit tests for all new functionality\n- Keep functions under 30 lines when possible\n- Document public APIs with JSDoc/docstring comments\n- Use meaningful variable names that describe purpose\n- Prefer early returns to reduce nesting\n\n# Documentation Guidelines\n\n## Code Comments\n- Explain \"why\" not \"what\" in comments\n- Document edge cases and complex logic\n- Keep inline comments brief and focused\n\n## README Structure\n- Start with a clear project description\n- Include installation and setup instructions\n- Provide usage examples for common scenarios\n- Document configuration options\n- Add troubleshooting section for common issues\n\n## API Documentation\n- Document parameters, return values, and exceptions\n- Include example usage for each function\n- Note any performance considerations",
+    "editor.accessibilitySupport": "auto",
+    "editor.codeActionsOnSave": {},
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.enable": {
+        "*": false,
+        "markdown": false,
+        "plaintext": false,
+        "scminput": false,
+        "shellscript": true
+    },
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.inheritEnv": false,
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "explorer.confirmDelete": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.detectIndentation": false,
+    "editor.indentSize": "tabSize",
+    "editor.insertSpaces": true,
+    "editor.language.brackets": [],
+    
+    // === Editor settings ===
+    "editor.minimap.enabled": false,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    // === Useful extensions settings (some optional tweaks) ===
+    "gitlens.currentLine.enabled": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "bookmarks.saveBookmarksInProject": true,
+    "errorLens.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.matchBrackets": "always",
+	// Controls whether bracket pair guides are enabled or not.
+	//  - true: Enables bracket pair guides.
+	//  - active: Enables bracket pair guides only for the active bracket pair.
+	//  - false: Disables bracket pair guides.
+	"editor.guides.bracketPairs": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
