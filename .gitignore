@@ -12,3 +12,4 @@ bat/
 plugins/
 *.log
 *.timestamp
+*.zip
