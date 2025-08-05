@@ -1,7 +1,9 @@
 # -- force NOT to ignore --
+!/plugins/.gitkeep
 ! */.gitkeep
 
 # -- folders to ignore/exclude --
+save/
 logs/
 raycast/
 gh/
@@ -13,4 +15,3 @@ plugins/
 *.log
 *.timestamp
 *.zip
-zsh
