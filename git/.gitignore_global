@@ -12,3 +12,57 @@ bat/
 plugins/
 *.log
 *.timestamp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.env
+.venv
+
+# Ruby
+.bundle/
+log/
+tmp/
+*.gem
+*.rbc
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Swap and temp files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# CTags
+tags
+TAGS
+*.orig

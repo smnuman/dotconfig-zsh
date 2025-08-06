@@ -1,0 +1,5 @@
+[user]
+	email = smnuman@gmail.com
+	name = Numan Syed
+[credential]
+    helper = cache

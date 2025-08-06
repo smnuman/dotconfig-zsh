@@ -12,6 +12,8 @@ bat/
 
 # -- ignore the following --
 plugins/
+.zsh_*
+.zcompdump
 *.log
 *.timestamp
 *.zip

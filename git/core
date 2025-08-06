@@ -1,0 +1,6 @@
+[init]
+	defaultBranch = main
+[core]
+	pager = delta
+	editor = code
+	excludesfile = ~/.config/git/.gitignore_global

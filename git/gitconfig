@@ -1,0 +1,25 @@
+[include]
+    path = ~/.config/git/config
+[core]
+    editor = nvim
+    pager = delta
+    excludesfile = ~/.config/git/.gitignore_global
+[color]
+    ui = auto
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
+    syntax-theme = Monokai Extended
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
+[push]
+    autoSetupRemote = true
+[credential]
+    helper = cache
+[submodule]
+    recurse = true

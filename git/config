@@ -1,0 +1,18 @@
+# ~/.config/git/config
+[user]
+    name = Numan Syed
+    email = smnuman@gmail.com
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    lg = log --oneline --graph --decorate --all
+    unscrew = "!f() { echo \"🔧 Unscrewing repo...\"; git restore --source=HEAD --staged --worktree . && git fetch origin && git rebase origin/main && echo \"✅ Done\"; }; f"
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
